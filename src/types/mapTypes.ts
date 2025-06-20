@@ -1,4 +1,4 @@
-import { LocationData } from '../hooks/useSignalR';
+import { LocationData } from "./signalRTypes";
 
 export interface LocationHistory extends LocationData {
     timestamp: string;
